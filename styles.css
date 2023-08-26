@@ -1,0 +1,109 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a global font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+#home .hero {
+    position: relative;
+    text-align: center;
+}
+
+#home .hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+#home .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* About section styles */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* History section styles */
+#history .timeline-event {
+    margin-bottom: 1rem;
+}
+
+/* Present section styles */
+#present .comparison {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* Future section styles */
+#future .future-visualization img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Research and Blog section styles */
+.research-center, .blog-post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0.5rem;
+}
